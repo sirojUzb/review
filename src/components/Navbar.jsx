@@ -2,9 +2,9 @@ import logo from "../img/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="navbar_wrapper">
-      <div className="container navbar_container">
-        <div className="navbar_container_right">
+    <div className="main_wrapper">
+      <div className="navbar_wrapper">
+        <div className="navbar_container_left">
           <div className="logo">
             <img src={logo} alt="logo" />
             <h6>Murad</h6>
@@ -20,9 +20,9 @@ const Navbar = () => {
         </div>
       </div>
       {/* home starts here */}
-      <div className="container home">
-        <div className="home_right">
-          <div className="home_right_top">
+      <div className="home">
+        <div className="home_left">
+          <div className="home_left_top">
             <div className="title">
               Hiring Smarter With Better <h1>Reviews</h1>
             </div>
@@ -34,19 +34,24 @@ const Navbar = () => {
               <p>Learn More</p>
             </div>
           </div>
-          <div className="home_right_bottom">456</div>
+          <div className="home_left_bottom">456</div>
         </div>
-        <div className="home_left">
-          <img
-            className="woman_img"
-            src={
-              "https://s3-alpha-sig.figma.com/img/8b13/9b0b/ea29df4128e02ce6d8ee5b553b6f3cc2?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qEU1Uy4o5tbctkfBG18n0cHj5bLC6hJwbLQ9q9JfzrKWdsR4G4vtIPmMhEiF4ajPt-f0O6oMhOEsP6mCp5WsX08ph4jNaOGVaGXWaak6DBZLN1UWXqOFXlZI~mihnNvQOZLY7X9MIzcfgiEh2D55wKqd6Kun~hgqpwiOr4ELicq0s7f9onFfP0xRvFBpFrRYzHtd9~AvJAPdn~0AjKVV8LfUSw39Bzi2Yai9ud0JPn089YFr7~5XePfBa8Ktx0vrOfXKS0dHUxKlXvCc0AkaHSCIm7sozHsSr1dPlSyUaKbVzNF~rPZh~VU8tWT0CKet99bINiGS1oyERRf6btxBwg__"
-            }
-            alt=""
-          />
+        <div className="home_right">
+          <div className="bg_color">
+            <div className="bg_color_2">
+              <div className="bg_color_3">
+                <img
+                  className="woman_img"
+                  src={
+                    "https://s3-alpha-sig.figma.com/img/8b13/9b0b/ea29df4128e02ce6d8ee5b553b6f3cc2?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qEU1Uy4o5tbctkfBG18n0cHj5bLC6hJwbLQ9q9JfzrKWdsR4G4vtIPmMhEiF4ajPt-f0O6oMhOEsP6mCp5WsX08ph4jNaOGVaGXWaak6DBZLN1UWXqOFXlZI~mihnNvQOZLY7X9MIzcfgiEh2D55wKqd6Kun~hgqpwiOr4ELicq0s7f9onFfP0xRvFBpFrRYzHtd9~AvJAPdn~0AjKVV8LfUSw39Bzi2Yai9ud0JPn089YFr7~5XePfBa8Ktx0vrOfXKS0dHUxKlXvCc0AkaHSCIm7sozHsSr1dPlSyUaKbVzNF~rPZh~VU8tWT0CKet99bINiGS1oyERRf6btxBwg__"
+                  }
+                  alt="woman img"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      {/* home ends here */}
     </div>
   );
 };
